@@ -7,3 +7,18 @@
 ```sh
 brew install ffmpeg
 ```
+
+| 説明 | ファイル名 |
+|----------|----------|
+| PNG圧縮 | compress_png.py |
+| PNGリサイズ | resize_png.py |
+| mp4をgif画像に | mp4_to_gif.py|
+| GIF画像をつなげて動画に | create_gif_movie.py |
+| GIF画像をつなげて動画に | create_gif_movie2.py |
+| GIF画像をPNG画像に | convert_gif_to_png.py |
+| PNG画像をGIF画像に | convert_png_to_gif.py |
+| フレーム間の時間を取得 | frame_duration.py |
+| GIF動画をGIF画像に分ける | gif_movie_to_image.py |
+| GIF動画をGIF画像に分ける | extract_frames.py |
+| 背景透過(rembg) | remove_background.py |
+| 背景透過(DeepLabV3) | remove_background2.py |
