@@ -25,11 +25,11 @@ def resize_pngs_in_folder(input_folder, output_folder, scale_factor=0.5):
 
 def main():
     # 入力画像があるフォルダへのパスを指定してください
-    input_folder = "output_pngs"
+    input_folder = "output/output_pngs"
     # 処理後の画像を保存するフォルダへのパスを指定してください
-    output_folder = "output_resized_pngs"
+    output_folder = "output/output_resized_pngs"
     # 縮小したいスケールファクターを指定してください
-    scale_factor = 0.25
+    scale_factor = 0.5
 
     resize_pngs_in_folder(input_folder, output_folder, scale_factor)
 
